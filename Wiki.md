@@ -1,5 +1,12 @@
 # Introduction
 
+Compilers have played a pivotal role in the progress of computing since their inception in the early 1950s.
+While serving as a bridge between humans and computers, they enable the use of higher-level languages that 
+are more comprehensible and user-friendly than low-level machine code. This page takes you through the history 
+of compiler development, beginning with Grace Hopper's groundbreaking work on the first compiler. 
+We will also discuss the differences between compiled and interpreted languages, as well as the various 
+phases and types of compilers that are prevalent today.
+
 ## History of the compiler
 
 What is the history of compiler development? It was during 1951, that Grace Hopper wrote the first compiler program which 
@@ -14,8 +21,9 @@ that used words and expressions to program the UNIVAC. Hopper also created the f
 phrase BUG.
 
 ## What A Compiler Is
-A Compiler is a computer program that processes code that has been written and converts it into another programming language. Usually it is used to translate a high level programming language into machine code to allow the computer to run the code. It does this via the six phases found below. Despite this being the most common use for a compiler they can also be used to convert between any languages a compiler exists to compile between, this can be helpful to convert certain things between different operating systems, or languages. 
-# Process 
+A Compiler is a computer program that processes code that has been written and converts it into another programming language. Usually it is used to translate a high level programming language into machine code to allow the computer to run the code. It does this via the six phases found below. Despite this being the most common use for a compiler they can also be used to convert between any languages a compiler exists to compile between, this can be helpful to convert certain things between different operating systems, or languages.
+
+## Process 
 The process of compiling is explored below but involves intaking the code from a higher level language, and running the three processes listed below. It will then generate an intermediate code which must represent the original code without losing any information, while also being independent of any operating system or format. For java this is called the Java Bytecode, while for .NET languages it is called Common Intermediate Language, and is used for all languages in that family. These intermediate languages are so named because they are typically not written by humans, but are also not the final destination machine code. Rather they are a middle point that is easier to process and optimize than either end of the process. Once this code has been generated it will sometimes be analyzed and optimized automatically by the compiler in order to improve program performance. Once this process is complete the compiler will do further cpu specific optimizations and then finally convert the code to the output code, typically a given device's machine code, which it will then be able to run.
 
 ## Phases of Compilers
@@ -110,3 +118,11 @@ Disadvantages:
 Compiled languages generally offer better performance and security, making them suitable for high-performance applications and situations where intellectual property protection is crucial. Interpreted languages, on the other hand, facilitate rapid development and prototyping, with better portability and easier debugging, making them ideal for scripting, automation, and web development tasks.
 
 # Conclusion
+
+The development of compilers has significantly influenced the advancement of computing technology.
+ From the pioneering work of Grace Hopper on the first compiler to the sophisticated compilers that 
+ underpin modern programming languages, the field of compiler development has persistently evolved to 
+ keep pace with the dynamic world of computing. Nowadays, the choice between compiled and interpreted 
+ languages allows programmers to strike a balance between performance and rapid development, catering to 
+ the specific needs of their projects. As we forge ahead in the realm of technology, compilers will undoubtedly
+ maintain their vital role in shaping the future of computing.
