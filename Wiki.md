@@ -18,7 +18,7 @@ A Compiler is a computer program that processes code that has been written and c
 # Process 
 The process of compiling is explored below but involves intaking the code from a higher level language, and running the three processes listed below. It will then generate an intermediate code which must represent the original code without losing any information, while also being independent of any operating system or format. For java this is called the Java Bytecode, while for .NET languages it is called Common Intermediate Language, and is used for all languages in that family. These intermediate languages are so named because they are typically not written by humans, but are also not the final destination machine code. Rather they are a middle point that is easier to process and optimize than either end of the process. Once this code has been generated it will sometimes be analyzed and optimized automatically by the compiler in order to improve program performance. Once this process is complete the compiler will do further cpu specific optimizations and then finally convert the code to the output code, typically a given device's machine code, which it will then be able to run.
 
-## phases of compilers
+## Phases of Compilers
 
 There are six phases of the compiler which are: 1) Lexical Analysis, 2) Syntactic Analysis or Parsing, 3) Semantic Analysis, 
 4) Intermediate Code Generation, 5) Code Optimization and 6) Code Generation. Discussion will be made on the first three phases of 
@@ -59,6 +59,10 @@ https://byjus.com/gate/phases-of-complier-notes/                reference to abo
 
 
 
-## Heading 4
+## Types of Compilers 
+After acknowledging the Phases of Compiler design we can begin to understand the process of a Compiler pass. Single Pass is one type of Compiler pass and Two/Multi-Pass is another type. Furthermore, a Compiler pass is the crossing of a Compiler throughout a complete program. 
+Single Pass or the One Pass compiler is a specific type of Compiler that is passed through the section of all compilation units only one time. It may be beneficial to note that this Compiler pass is smaller and quicker than the Multi-Pass Compiler but is also deemed to be less-efficient when compared to the Multi-Pass Compiler. Obvious to its name, the Single Pass Compiler operates only once from the lexical analyzer to the code generator and then returns for the following read. Because the Single Pass Compiler is so limiting to expression, it is not ideal for optimal solutions. 
+Two Pass Compilers or Multi-Pass Compilers are a type of Compiler that processes the source code of a program multiple times. In the first pass the compiler reads the code, scans it and takes out the tokens to then save the result into an output file. In the second pass the compiler reads that same output file created by the first pass in order to build the syntactic tree and implement the syntactical analysis that can then produce a file that includes the syntactical tree in the output file. In the third pass the compiler reads the output file from the second pass and checks that the tree is correct. The semantic analysis phase’s output is the annotated tree syntax and this pass is continual until the output is produced ideally. In comparison to a Single Pass Compiler, a Multi-Pass Compiler is slower due to the multiple number of passes it has a longer execution time however it is more widely versed and can scan every part of a program.  
+
 
 # Conclusion
