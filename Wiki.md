@@ -62,7 +62,51 @@ https://byjus.com/gate/phases-of-complier-notes/                reference to abo
 ## Types of Compilers 
 After acknowledging the Phases of Compiler design we can begin to understand the process of a Compiler pass. Single Pass is one type of Compiler pass and Two/Multi-Pass is another type. Furthermore, a Compiler pass is the crossing of a Compiler throughout a complete program. 
 Single Pass or the One Pass compiler is a specific type of Compiler that is passed through the section of all compilation units only one time. It may be beneficial to note that this Compiler pass is smaller and quicker than the Multi-Pass Compiler but is also deemed to be less-efficient when compared to the Multi-Pass Compiler. Obvious to its name, the Single Pass Compiler operates only once from the lexical analyzer to the code generator and then returns for the following read. Because the Single Pass Compiler is so limiting to expression, it is not ideal for optimal solutions. 
-Two Pass Compilers or Multi-Pass Compilers are a type of Compiler that processes the source code of a program multiple times. In the first pass the compiler reads the code, scans it and takes out the tokens to then save the result into an output file. In the second pass the compiler reads that same output file created by the first pass in order to build the syntactic tree and implement the syntactical analysis that can then produce a file that includes the syntactical tree in the output file. In the third pass the compiler reads the output file from the second pass and checks that the tree is correct. The semantic analysis phase’s output is the annotated tree syntax and this pass is continual until the output is produced ideally. In comparison to a Single Pass Compiler, a Multi-Pass Compiler is slower due to the multiple number of passes it has a longer execution time however it is more widely versed and can scan every part of a program.  
+Two Pass Compilers or Multi-Pass Compilers are a type of Compiler that processes the source code of a program multiple times. In the first pass the compiler reads the code, scans it and takes out the tokens to then save the result into an output file. In the second pass the compiler reads that same output file created by the first pass in order to build the syntactic tree and implement the syntactical analysis that can then produce a file that includes the syntactical tree in the output file. In the third pass the compiler reads the output file from the second pass and checks that the tree is correct. The semantic analysis phase’s output is the annotated tree syntax and this pass is continual until the output is produced ideally. In comparison to a Single Pass Compiler, a Multi-Pass Compiler is slower due to the multiple number of passes it has a longer execution time however it is more widely versed and can scan every part of a program.
 
+## Compiled vs Interpreted Languages
+Compiled and interpreted languages are two different approaches to running computer programs, with each offering its own set of advantages and disadvantages.
+
+In a compiled language, the source code is written by the programmer and is transformed into an executable program by a compiler. The compiler then translates the high-level code into low-level machine code or bytecode, which is then executed by the computer's hardware or a virtual machine. Examples of compiled languages are C, C++, and Java (which is compiled into bytecode and runs on the Java Virtual Machine(JVM).
+
+Use cases:
+
+    - High-performance applications, like games, operating systems, and embedded systems
+    - Programs that require efficient memory management and close interaction with the hardware
+    - Applications that need a high level of security and intellectual property protection
+
+Advantages:
+
+    - Faster execution: Compiled code runs faster because it's already translated into machine code or bytecode.
+    - Better optimization: Compilers can optimize the code during compilation, potentially leading to better performance.
+    - Enhanced security: Compiled code is more difficult to reverse-engineer, helping protect the intellectual property of the software.
+
+Disadvantages:
+
+    - Longer build times: Compilation can be time-consuming, especially for large projects.
+    - Less portable: Compiled code may need to be recompiled for different platforms, which can create additional work.
+    - Debugging can be more difficult: Errors may be harder to trace back to the original source code since they occur in the compiled version.
+
+In an interpreted language, the source code is executed line by line by an interpreter, which translates each line into machine code and runs it immediately. This approach doesn't require the separate compilation step that compiled languages do. Examples of interpreted languages include Python, Ruby, and JavaScript.
+
+Use cases:
+
+    - Rapid application development and prototyping
+    - Scripting and automation tasks
+    - Web development and server-side programming
+
+Advantages:
+
+    - Faster development: Interpreted languages allow for quicker development and iteration, as there's no need to compile the code before running it.
+    - Better portability: The same code can run on different platforms without recompilation, as long as the interpreter is available.
+    - Easier debugging: Errors are reported during runtime, making it simpler to trace them back to the source code.
+
+Disadvantages:
+
+    - Slower execution: Interpreted code generally runs slower than compiled code due to the overhead of interpreting each line during runtime.
+    - Less optimization: Interpreters typically don't optimize the code, which may result in lower performance.
+    - Weaker security: Interpreted code is easier to reverse-engineer, making it less secure than compiled code.
+
+Compiled languages generally offer better performance and security, making them suitable for high-performance applications and situations where intellectual property protection is crucial. Interpreted languages, on the other hand, facilitate rapid development and prototyping, with better portability and easier debugging, making them ideal for scripting, automation, and web development tasks.
 
 # Conclusion
