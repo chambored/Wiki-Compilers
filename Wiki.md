@@ -13,6 +13,11 @@ had worked on the first commercial computer called the UNIVAC. During 1953 Hoppe
 that used words and expressions to program the UNIVAC. Hopper also created the first modern day compiler which coined the
 phrase BUG.
 
+## What A Compiler Is
+A Compiler is a computer program that processes code that has been written and converts it into another programming language. Usually it is used to translate a high level programming language into machine code to allow the computer to run the code. It does this via the six phases found below. Despite this being the most common use for a compiler they can also be used to convert between any languages a compiler exists to compile between, this can be helpful to convert certain things between different operating systems, or languages. 
+# Process 
+The process of compiling is explored below but involves intaking the code from a higher level language, and running the three processes listed below. It will then generate an intermediate code which must represent the original code without losing any information, while also being independent of any operating system or format. For java this is called the Java Bytecode, while for .NET languages it is called Common Intermediate Language, and is used for all languages in that family. These intermediate languages are so named because they are typically not written by humans, but are also not the final destination machine code. Rather they are a middle point that is easier to process and optimize than either end of the process. Once this code has been generated it will sometimes be analyzed and optimized automatically by the compiler in order to improve program performance. Once this process is complete the compiler will do further cpu specific optimizations and then finally convert the code to the output code, typically a given device's machine code, which it will then be able to run.
+
 ## phases of compilers
 
 There are six phases of the compiler which are: 1) Lexical Analysis, 2) Syntactic Analysis or Parsing, 3) Semantic Analysis, 
@@ -20,7 +25,7 @@ There are six phases of the compiler which are: 1) Lexical Analysis, 2) Syntacti
 compilers which are: 1) Lexical Analysis, 2) Syntactic Analysis, and 3) Semantic Analysis.
 
 1. Lexical Analysis: Lexical analysis or Lexical analyzer is the initial stage or phase of the compiler. This phase scans the source code
-and transforms the input program into a series of a token.
+and transforms the input program into a series of a tokens.
 A token is basically the arrangement of characters that defines a unit of information in the source code.
 
 Roles and Responsibilities of Lexical Analyzer
@@ -52,7 +57,7 @@ https://byjus.com/gate/phases-of-complier-notes/                reference to abo
 
 
 
-## Heading 3
+
 
 ## Heading 4
 
