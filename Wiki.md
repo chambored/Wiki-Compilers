@@ -13,7 +13,7 @@ had worked on the first commercial computer called the UNIVAC. During 1953 Hoppe
 that used words and expressions to program the UNIVAC. Hopper also created the first modern day compiler which coined the
 phrase BUG.
 
-##phases of compilers
+## phases of compilers
 
 There are six phases of the compiler which are: 1) Lexical Analysis, 2) Syntactic Analysis or Parsing, 3) Semantic Analysis, 
 4) Intermediate Code Generation, 5) Code Optimization and 6) Code Generation. Discussion will be made on the first three phases of 
